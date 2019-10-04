@@ -1,9 +1,9 @@
 # Quadtree for RRT in python
 
 ## summary
-Extended the quadtree implementation from [https://github.com/kpully/quadtree](https://github.com/kpully/quadtree) to include nearest neighbor search.
-* finds node corresponding to point and nn inside node
-* draws a box around the point (size dep on distance to initial nn)
+Quadtree implementation from [https://github.com/kpully/quadtree](https://github.com/kpully/quadtree) extended with nearest neighbor search.
+* finds node corresponding to point and local nn (inside node)
+* draws a box around the point (size dep on distance to local nn)
 * rectangle collision gives all node canditates for global nn.
 
 ## application
